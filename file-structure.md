@@ -13,12 +13,13 @@ This page constains the file structure of this project
 6) Views = It contains the front view and is written in handlebars hbs, a template engine.
 
 -------------------------X---------------------------------------X---------------------------------------X--------------
-How engine works in routes and views
+
+                            How engine works in routes and views
 
 so when ypu type something on the address, it serches for the same in the routes folder for the file of the same name, once found it sees the code and routes you the given view page and render it.
 ----------------------------x---------------------------------------X---------------------------------------X-------------
 
-Packages used 
+                      Packages used 
 
 1) express-validator(3.1.2) : used for form validator
 
