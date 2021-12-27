@@ -43,6 +43,7 @@ With PeerJS, identifying peers is even simpler. Every peer is identified using n
 
 
 ------------------------xxxxxxxxxxxxxxxxxx---------------------------
+
                             error resolve :
 
 line no. 165,185 of task.hbs - $('#my-video').prop('src', URL.createObjectURL(stream));
@@ -54,6 +55,7 @@ changed the line to : const video = document.getElementById('my-video');
                      video.srcObject = stream;
 
 ------------------------------xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx----------------------------------------------
+
                         SOCKET.IO CONCEPTUALIZATION 
 Earlier, websites used to reload every-time a resource was requested. This introduced unnecessary delays which increased average wait time. Often users had to wait for minutes to fetch a particular page or file. Real-time applications(Instant messenger, Online gaming, push notification etc), on the other hand, are those applications which run within a given time-slot such that user is presented with immediate and up-to-date copy of the resource. Latency in these applications is kept as low as possible to give smooth and consistent user experience. Socket.IO is one such JavaScript library that programmers use in developing real-time “Web Applications”.
 
